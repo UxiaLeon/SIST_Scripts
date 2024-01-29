@@ -5,6 +5,10 @@ nombre="Uxía León Fernández"
 edad=23
 ((edad++))
 listado="ls -lisa"
+ruta="pwd"
+
 echo $nombre
 echo $edad
+echo `$ruta`
 echo `$listado`
+

@@ -9,7 +9,7 @@ nombreCompleto="$nombre $apellido"
 echo "Me llamo $nombreCompleto"
 
 # Suma
-ext=1
+next=1
 nextEdad=$(($edad+next))
 echo "Este año cumpliré $nextEdad años"
 # Resta
@@ -30,6 +30,10 @@ echo "la mitad de mi edad es $halfEdad, con resto de $modulo año(s)"
 # Que cada una de las operaciones esté realizada con "$edad" hace que
 # el valor de la variable no vaya cambiando, almacenando el valor que
 # se obtenga tras cada una de las operaciones, sino que lo que hace
-# es ejecutar la variable para cada una de las operaciones, acceder a su valor, y, por lo
+# es ejecutar la variable para cada una de las operaciones y, por lo
 # tanto, cada operación está realizada con la ejecución de edad, es
 # decir: 23.
+
+# OPERACIONES CON DECIMALES (comando bc)
+
+
